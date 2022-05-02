@@ -94,12 +94,14 @@ img {
   justify-content: end;
 }
 @media (max-width: 960px) {
+  * {
+    overflow: hidden;
+  }
   img {
     display: none;
   }
   form {
-    width: 270px;
-    max-width: 300px;
+    margin: 0 auto;
   }
   .form-container {
     margin: 0 auto;

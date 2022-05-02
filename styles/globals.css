@@ -41,6 +41,8 @@ label {
 form {
   display: grid;
   padding: 1em;
+  width: 370px;
+  max-width: 350px;
 }
 .user-input {
   position: relative;
@@ -94,6 +96,10 @@ img {
 @media (max-width: 960px) {
   img {
     display: none;
+  }
+  form {
+    width: 270px;
+    max-width: 300px;
   }
   .form-container {
     margin: 0 auto;

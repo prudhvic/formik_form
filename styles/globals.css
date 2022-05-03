@@ -76,7 +76,7 @@ button {
   /* background-color: #f72585; */
   padding: 0.5em 0.6em;
   color: white;
-  font-weight: 500;
+  font-weight:bold;
   font-family: inherit;
   font-size: 1.1rem;
   border-radius: 30px;

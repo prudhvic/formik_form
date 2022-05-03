@@ -31,6 +31,10 @@ export default function Home() {
   console.log(formik.errors);
   console.log(formik.values.username);
   return (
+<>
+<Head>
+<title>signUp form</title>
+</Head>
     <div className={styles.container}>
       <div className="form-container">
         <FaUserCircle color="white" fontSize={100} className="icon" />
@@ -111,5 +115,6 @@ export default function Home() {
       </div>
       <img src="/logo.jpg" />
     </div>
+</>
   );
 }
